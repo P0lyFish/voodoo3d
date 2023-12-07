@@ -24,8 +24,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <title>VOODOO 3D</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,21 +52,26 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">VOODOO 3D: <u>Vo</u>lumetric P<u>o</u>rtrait <u>D</u>isentanglement f<u>o</u>r <u>O</u>ne-Shot 3D Head Reenactment</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Phong Tran<sup>1</sup></a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Egor Zakharov<sup>2</sup></a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Long Nhat Ho<sup>1</sup></a>,</span>
+                    <span class="author-block">
+                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Anh Tuan Tran<sup>3</sup></a>,</span>
+                      <span class="author-block">
+                        <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Liwen Hu<sup>4</sup></a>,</span>
+                        <span class="author-block">
+                          <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hao Li<sup>1,4</sup></a>
+                        </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block"><sup>1</sup>Metaverse Lab - MBZUAI, <sup>2</sup>ETH Zurich, <sup>3</sup> VinAI Research, <sup>4</sup>Pinscreen</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -82,38 +87,16 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/MBZUAI-Metaverse/VOODOO3D-official" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (comming soon)</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -127,13 +110,13 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+      <video poster="" id="video2" autoplay muted loop playsinline height="100%">
+        <!-- Your video file here -->
+        <source src="static/videos/teaser.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+				Introducing <b>VOODOO 3D</b>: a high-fidelity 3D-aware one-shot head reenactment technique. Our method transfers the expression of a driver to a source and produces view consistent renderings for holographic displays.
       </h2>
     </div>
   </div>
@@ -148,7 +131,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            We present a 3D-aware one-shot head reenactment method based on a fully volumetric neural disentanglement framework for source appearance and driver expressions. Our method is real-time and produces high-fidelity and view-consistent output, suitable for 3D teleconferencing systems based on holographic displays. Existing cutting-edge 3D-aware reenactment methods often use neural radiance fields or 3D meshes to produce view-consistent appearance encoding, but, at the same time, they rely on linear face models, such as 3DMM, to achieve its disentanglement with facial expressions. As a result, their reenactment results often exhibit identity leakage from the driver or have unnatural expressions. To address these problems, we propose a neural self-supervised disentanglement approach that lifts both the source image and driver video frame into a shared 3D volumetric representation based on tri-planes. This representation can then be freely manipulated with expression tri-planes extracted from the driving images and rendered from an arbitrary view using neural radiance fields. We achieve this disentanglement via self-supervised learning on a large in-the-wild video dataset. We further introduce a highly effective fine-tuning approach to improve the generalizability of the 3D lifting using the same real-world data. We demonstrate state-of-the-art performance on a wide range of datasets, and also showcase high-quality 3D-aware head reenactment on highly challenging and diverse subjects, including non-frontal head poses and complex expressions for both source and driver.
           </p>
         </div>
       </div>
@@ -158,38 +141,226 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
+<!-- facial reenactment carousel -->
+<section class="hero is-small is-light">
   <div class="hero-body">
-    <div class="container">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Real-time Facial Reenactment Demo</h2>
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/reenactment/01.mp4"
+            type="video/mp4">
+          </video>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/reenactment/02.mp4"
+            type="video/mp4">
+          </video>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/reenactment/03.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End facial reenactment carousel -->
+
+<!-- rotation carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Expression-pose-identity Disentanglement</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/rotation/01.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/rotation/02.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/rotation/03.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End rotation carousel -->
+
+<!-- interaction carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Reenacted 3D Face interaction</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/interaction/01.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/interaction/02.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/interaction/03.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End interaction carousel -->
+
+
+<!-- holographic carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Reenacted 3D Face holographic</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/holographic/01.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/holographic/02.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/holographic/03.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End holographic carousel -->
+
+
+
+<!-- lpr carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Comparisons with State-of-the-art</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/lpr/01.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <!-- Your video file here -->
+            <source src="static/videos/lpr/02.mp4"
+            type="video/mp4">
+          </video>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End lpr carousel -->
+
+<!-- Image carousel -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3">Comparisons With Other Methods</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/supp_fig01.jpeg" alt="MY ALT TEXT"/>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/supp_fig02.jpeg" alt="MY ALT TEXT"/>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/supp_fig03.jpeg" alt="MY ALT TEXT"/>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+      <img src="static/images/supp_fig04.jpeg" alt="MY ALT TEXT"/>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/supp_fig05.jpeg" alt="MY ALT TEXT"/>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/supp_fig06.jpeg" alt="MY ALT TEXT"/>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/supp_fig07.jpeg" alt="MY ALT TEXT"/>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/supp_fig08.jpeg" alt="MY ALT TEXT"/>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/supp_fig09.jpeg" alt="MY ALT TEXT"/>
+    </div>
+    <div class="item">
+      <!-- Your image here -->
+      <img src="static/images/supp_fig10.jpeg" alt="MY ALT TEXT"/>
     </div>
   </div>
 </div>
@@ -200,85 +371,44 @@
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
+<!-- Methodology -->
 <section class="hero is-small">
   <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
+    <div class="container is-max-desktop">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Methodology</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <img src="static/images/voodoo_arch_v2.png" alt="MY ALT TEXT"/>
         </div>
       </div>
+        <div class="content has-text-justified">
+          <p>
+          Our head reenactment pipeline consists of three stages: 1) 3D Lifting, 2) Volumetric Disentanglement, and 3) Tri-plane Rendering. Given a pair of source and driver images, we first frontalize them using a pre-trained but fine-tuned tri-plane-based 3D lifting module. This driver alignment step is crucial and allows our model to disentangle the expressions from the head pose, which prevents overfitting. Then, the frontalized faces are fed into two separate convolutional encoders to extract the face features F<sub>s</sub> and F<sub>d</sub>. These extracted features are concatenated with the ones extracted from the tri-planes of the source, and all are fed together into several transformer blocks to produce the expression tri-plane residual, which is added to the tri-planes of the source image. The final target image can be rendered from the new tri-planes using a pre-trained tri-plane renderer using the driver's pose.<br/><br/><br/> 
+
+
+          <b>3D Lifting</b> We adopt Lp3d as a 3D face-lifting module, which predicts the radiance field of any given face image in real-time. However, in our implementation, Lp3D does not work well on in-the-wild images since it was trained with synthetic data generated by EG3D. Therefore, we use a special training strategy to fine-tune it on a large-scale real-world video dataset.<br/><br/>
+          <b>Volumetric Disentanglement</b> We first frontalize both source and driver images and apply a strong augmentations on the frontalized driver. Then we use a hybrid ViT model to calculate the expression triplane residual which is added to the triplane of the source to transfer its expression to the target expression.<br/><br/>
+          <b>Tri-plane Rendering</b> We use tri-plane renderer similar to EG3D. However, we replace the super-resolution in EG3D by GFPGAN, which in our experiment produced higher quality results.<br/>
+          </p>
+        </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
+<!-- End Methodology -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@article{tran2023voodoo,
+  title={VOODOO 3D: VOlumetric pOrtrait Disentanglement fOr Online 3D head reenactment},
+  author={Phong Tran, Egor Zakharov, Long Nhat Ho, Anh Tuan Tran, Liwen Hu, Hao Li},
+  journal={arXiv preprint arXiv:2104.00317},
+  year={2023}
+}</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
